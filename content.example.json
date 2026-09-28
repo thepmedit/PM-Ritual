@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    { "text": "Close the day gently. It has given you enough.", "author": "The PM Edit" },
+    { "text": "Rest is not idleness.", "author": "John Lubbock" }
+  ],
+  "sessions": [
+    {
+      "id": "finish",
+      "title": "Let the day finish",
+      "subtitle": "A gentle full-body settle",
+      "membersOnly": false,
+      "audio5": "https://cdn.shopify.com/.../let-the-day-finish-5.mp3",
+      "audio10": "https://cdn.shopify.com/.../let-the-day-finish-10.mp3",
+      "script": [[0, "Settle into your bed. Let your body grow heavy."], [0.97, "Goodnight."]]
+    },
+    {
+      "id": "month",
+      "title": "October: Spring evenings",
+      "subtitle": "This month's ritual",
+      "membersOnly": true,
+      "isMonthly": true,
+      "script": [[0, "Tonight the window is open a little, and the air is soft."], [0.98, "Goodnight."]]
+    }
+  ]
+}

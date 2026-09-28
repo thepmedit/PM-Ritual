@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "The PM Ritual",
+    "slug": "pm-ritual",
+    "scheme": "pmritual",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#141211",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "au.com.thepmedit.ritual",
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "au.com.thepmedit.ritual",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#141211"
+      },
+      "permissions": ["POST_NOTIFICATIONS", "SCHEDULE_EXACT_ALARM"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#141211"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#C9A45C"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "revenueCatIosKey": "",
+      "revenueCatAndroidKey": "",
+      "entitlementId": "member",
+      "contentUrl": "",
+      "privacyUrl": "https://thepmedit.com.au/pages/privacy",
+      "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "shopUrl": "https://thepmedit.com.au",
+      "rewardsEmail": "hello@thepmedit.com.au"
+    }
+  }
+}
