@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "The PM Ritual",
-    "slug": "pm-ritual",
+    "slug": "the-pm-edit",
     "scheme": "pmritual",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,7 +14,9 @@
       "supportsTablet": false,
       "buildNumber": "1",
       "infoPlist": {
-        "UIBackgroundModes": ["audio"],
+        "UIBackgroundModes": [
+          "audio"
+        ],
         "ITSAppUsesNonExemptEncryption": false
       }
     },
@@ -25,7 +27,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#141211"
       },
-      "permissions": ["POST_NOTIFICATIONS", "SCHEDULE_EXACT_ALARM"]
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM"
+      ]
     },
     "plugins": [
       "expo-router",
@@ -63,7 +68,10 @@
       "privacyUrl": "https://thepmedit.com.au/pages/privacy",
       "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
       "shopUrl": "https://thepmedit.com.au",
-      "rewardsEmail": "hello@thepmedit.com.au"
+      "rewardsEmail": "hello@thepmedit.com.au",
+      "eas": {
+        "projectId": "72c6e785-c1d7-4943-8b04-958cf6b53046"
+      }
     }
   }
 }
